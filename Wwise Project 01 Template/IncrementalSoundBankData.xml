@@ -7,13 +7,13 @@
 				<File Name="Init" Hash="4089155376" Timestamp="131248292980000000"/>
 			</Language>
 			<Language ID="393239870">
-				<File Name="Game_Soundbank" Hash="2652434358" Timestamp="1542465788"/>
+				<File Name="Game_Soundbank" Hash="1799276628" Timestamp="1542467857"/>
 				<File Name="Init" Hash="349789562" Timestamp="1534860416"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="943185542" Timestamp="1542466286"/>
+				<File Name="" Hash="72659396" Timestamp="1542470166"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -24,13 +24,13 @@
 				<File Name="Init" Hash="2991911710" Timestamp="131248293000000000"/>
 			</Language>
 			<Language ID="393239870">
-				<File Name="Game_Soundbank" Hash="2652434358" Timestamp="1542465789"/>
+				<File Name="Game_Soundbank" Hash="1799276628" Timestamp="1542467857"/>
 				<File Name="Init" Hash="4041338096" Timestamp="1534860416"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2711162200" Timestamp="1542466286"/>
+				<File Name="" Hash="1386788882" Timestamp="1542470166"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

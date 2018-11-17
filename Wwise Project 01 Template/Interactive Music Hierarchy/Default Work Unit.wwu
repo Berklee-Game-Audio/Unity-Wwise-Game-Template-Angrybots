@@ -6,13 +6,6 @@
 				<Folder Name="Temp Sounds" ID="{5DE58F49-5B13-4E28-81FA-3AB6D5B548E0}" ShortID="839739383">
 					<ChildrenList>
 						<MusicSegment Name="snd_boss_active" ID="{D01D1C5B-0519-4131-ACE5-2B62D47F17B7}" ShortID="249657870">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{302DB8FC-2A8B-4210-B52B-EBED64176692}"/>
