@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" SchemaVersion="80">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="level_start" ID="{313C8D66-F8DB-4EFB-971E-1D299633D87A}">
+					<ChildrenList>
+						<Action Name="" ID="{0472A7FE-A430-4327-B3C0-769D4822B440}" ShortID="295251237">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{6C92AD4A-CC9D-413E-8F96-8F6F55F195EE}" ShortID="381174233">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="None" ID="{8354CB12-F9A5-40EF-B256-EB2AE3FD7112}" WorkUnitID="{746CC794-07EB-4241-ACD2-9EB1E0CFFB69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{61087192-41E0-4D35-9764-07E63A4D88C6}" ShortID="497525246">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="boss_deactive" ID="{FCC4A2B2-6271-4B4A-A1A0-0EFE26472BC8}" WorkUnitID="{A8657B1C-82BC-451E-9285-FD14D4CE8127}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{237C29C0-12E2-4FA9-99C3-F559C339A922}" ShortID="431748820">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mx_switch_container" ID="{32F00488-3671-4F6B-876B-B2F9FEA37C8F}" WorkUnitID="{81EA18EA-89C7-47EB-A9CE-375B489EFFFF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DDD1C6CF-8B29-4754-BB14-D6247393D9E3}" ShortID="29252046">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="level_01" ID="{175C199F-AACC-4282-88EE-4BA35971DDE6}" WorkUnitID="{746CC794-07EB-4241-ACD2-9EB1E0CFFB69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hack_3" ID="{EA72301B-8D47-4F07-8E0A-62B5FDBCDCD7}">
+					<ChildrenList>
+						<Action Name="" ID="{CBE6CEF3-D47E-492C-897C-21EC048030E4}" ShortID="768161022">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="trigger_hack_01" ID="{30A3ED78-94FA-4CE8-B44F-CD2497600F86}" WorkUnitID="{64679CF1-DCFF-49CA-8C5B-E13A5B17D7DA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enemies_active" ID="{5D194D97-1192-429B-813F-BD14D8F12116}">
+					<ChildrenList>
+						<Action Name="" ID="{DD26577F-6236-4FF8-A7FF-CA8009F88991}" ShortID="975768804">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="trigger_enemies_active" ID="{80F9B601-5549-4351-8500-314EC6A809BB}" WorkUnitID="{64679CF1-DCFF-49CA-8C5B-E13A5B17D7DA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enemies_clear" ID="{AEB52EB6-2267-4D0E-9D3A-CFA1D0D74832}"/>
+				<Event Name="boss_active" ID="{A177B17B-2AAD-4C28-80AB-1958D00A1B11}">
+					<ChildrenList>
+						<Action Name="" ID="{A9689288-DDD4-44F1-9C49-0E2E78193992}" ShortID="278849854">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="boss_active" ID="{837A565B-EA95-4145-985C-EF2C326DC963}" WorkUnitID="{A8657B1C-82BC-451E-9285-FD14D4CE8127}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="boss_clear" ID="{47F1B1B4-7545-4B89-969B-FEF801767CFD}">
+					<ChildrenList>
+						<Action Name="" ID="{E2CFB2E8-B76F-4B6D-B50F-12E2FE5EA133}" ShortID="144571262">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="boss_deactive" ID="{FCC4A2B2-6271-4B4A-A1A0-0EFE26472BC8}" WorkUnitID="{A8657B1C-82BC-451E-9285-FD14D4CE8127}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hack_1" ID="{D68FEDCF-5915-4B11-995F-A9DC934254A0}">
+					<ChildrenList>
+						<Action Name="" ID="{40A6F84F-CC26-4B9E-ABCC-2D0AFDF65892}" ShortID="700866618">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="trigger_hack_01" ID="{30A3ED78-94FA-4CE8-B44F-CD2497600F86}" WorkUnitID="{64679CF1-DCFF-49CA-8C5B-E13A5B17D7DA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hack_2" ID="{E47F4DA3-021E-40C7-9B7A-2546930971FB}">
+					<ChildrenList>
+						<Action Name="" ID="{35D090E0-F8EF-4957-9D69-811CE08D7794}" ShortID="121637283">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="trigger_hack_01" ID="{30A3ED78-94FA-4CE8-B44F-CD2497600F86}" WorkUnitID="{64679CF1-DCFF-49CA-8C5B-E13A5B17D7DA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="player_die" ID="{3B78D04A-0A2F-4541-8A1E-EB7D5CC358A1}">
+					<ChildrenList>
+						<Action Name="" ID="{04E5ABEC-C29D-40C9-9491-B52B6671F95B}" ShortID="761618454">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="level_01" ID="{175C199F-AACC-4282-88EE-4BA35971DDE6}" WorkUnitID="{746CC794-07EB-4241-ACD2-9EB1E0CFFB69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{32870AB7-2D84-49BF-B4D6-BC897CD3C0F9}" ShortID="65305909">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="trigger_player_death" ID="{545FF5D7-F048-4E0A-A232-8C8B0904BB0F}" WorkUnitID="{64679CF1-DCFF-49CA-8C5B-E13A5B17D7DA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="level_part_1" ID="{1D38C2E7-85D9-46C2-A0F2-86013D3C7945}"/>
+				<Event Name="level_part_2" ID="{E03CA229-574A-4A88-8BF9-D50BC06B032B}">
+					<ChildrenList>
+						<Action Name="" ID="{9712717E-E024-479C-8277-A31E7F7ACACF}" ShortID="984115124">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="level_02" ID="{6A8F5DE1-3EA5-462A-B818-BFFCA13189F7}" WorkUnitID="{746CC794-07EB-4241-ACD2-9EB1E0CFFB69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="level_part_3" ID="{A1A1D2E7-73AF-427E-97C4-7DB17D5BE796}">
+					<ChildrenList>
+						<Action Name="" ID="{96BF3E5C-E00F-4F3B-B83D-D2CE10771273}" ShortID="298837810">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="level_03" ID="{6B4428F4-A95F-48FC-8015-F13E97C1404C}" WorkUnitID="{746CC794-07EB-4241-ACD2-9EB1E0CFFB69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="level_part_4" ID="{19C043C6-7A3E-4734-A100-61EFB67DA087}">
+					<ChildrenList>
+						<Action Name="" ID="{B21543B7-611C-48A0-BFC4-87D24E76B823}" ShortID="1012667759">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="level_04" ID="{E22AE582-D721-47B8-A3AE-BEFFBC7EDF46}" WorkUnitID="{746CC794-07EB-4241-ACD2-9EB1E0CFFB69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="level_part_5" ID="{CC735B0E-DEB6-4BBC-87A6-36651F7EC77D}">
+					<ChildrenList>
+						<Action Name="" ID="{66AD4680-50A2-4C0F-B64B-8C96F73ECC95}" ShortID="594146668">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="level_05" ID="{D662D2EE-3D88-4B5E-8431-0BF9F7E79631}" WorkUnitID="{746CC794-07EB-4241-ACD2-9EB1E0CFFB69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hack_4" ID="{C74889D0-0288-47D4-9D36-C9F6E1785077}">
+					<ChildrenList>
+						<Action Name="" ID="{F515CC04-BF19-4210-90EB-FC4F1F956BFC}" ShortID="379569041">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="trigger_hack_01" ID="{30A3ED78-94FA-4CE8-B44F-CD2497600F86}" WorkUnitID="{64679CF1-DCFF-49CA-8C5B-E13A5B17D7DA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stop_all_sounds" ID="{449C8D8B-273F-4B6D-96CF-9ADE333D793F}">
+					<ChildrenList>
+						<Action Name="" ID="{19BF77F2-282F-41F6-81E7-C78FCA4468D8}" ShortID="276009481">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="boss_proximity_warning" ID="{6BA8864F-FE27-42F9-AC36-DC4510EBAE67}"/>
+				<Event Name="test_event" ID="{35A67DA4-B317-4E24-8A5D-6441619EB241}"/>
+				<Event Name="level_win" ID="{45B074D5-6991-44FA-A8C7-9EFD7189A0A1}">
+					<ChildrenList>
+						<Action Name="" ID="{712C9620-B170-4826-9631-9FA4BA39A4E5}" ShortID="434483185">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="None" ID="{8354CB12-F9A5-40EF-B256-EB2AE3FD7112}" WorkUnitID="{746CC794-07EB-4241-ACD2-9EB1E0CFFB69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

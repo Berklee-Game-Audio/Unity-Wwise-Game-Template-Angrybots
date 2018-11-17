@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>/Users/msweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_01_Wwise_Angrybots/Wwise Project 01 Template/</ProjectRoot>
+		<SourceFilesRoot>/Users/msweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_01_Wwise_Angrybots/Wwise Project 01 Template/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/msweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_01_Wwise_Angrybots/Wwise Project 01 Template/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/msweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_01_Wwise_Angrybots/Wwise Project 01 Template/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3626155605" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Game_Soundbank</ObjectPath>
+			<ShortName>Game_Soundbank</ShortName>
+			<Path>Game_Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1953592055" Name="boss_active" ObjectPath="\Events\Default Work Unit\boss_active"/>
+				<Event Id="821155884" Name="boss_clear" ObjectPath="\Events\Default Work Unit\boss_clear"/>
+				<Event Id="3888303873" Name="boss_proximity_warning" ObjectPath="\Events\Default Work Unit\boss_proximity_warning"/>
+				<Event Id="1503139828" Name="enemies_active" ObjectPath="\Events\Default Work Unit\enemies_active"/>
+				<Event Id="2534285889" Name="enemies_clear" ObjectPath="\Events\Default Work Unit\enemies_clear"/>
+				<Event Id="1147147046" Name="hack_1" ObjectPath="\Events\Default Work Unit\hack_1"/>
+				<Event Id="1147147045" Name="hack_2" ObjectPath="\Events\Default Work Unit\hack_2"/>
+				<Event Id="1147147044" Name="hack_3" ObjectPath="\Events\Default Work Unit\hack_3"/>
+				<Event Id="1147147043" Name="hack_4" ObjectPath="\Events\Default Work Unit\hack_4"/>
+				<Event Id="1535975439" Name="level_part_1" ObjectPath="\Events\Default Work Unit\level_part_1"/>
+				<Event Id="1535975436" Name="level_part_2" ObjectPath="\Events\Default Work Unit\level_part_2"/>
+				<Event Id="1535975437" Name="level_part_3" ObjectPath="\Events\Default Work Unit\level_part_3"/>
+				<Event Id="1535975434" Name="level_part_4" ObjectPath="\Events\Default Work Unit\level_part_4"/>
+				<Event Id="1535975435" Name="level_part_5" ObjectPath="\Events\Default Work Unit\level_part_5"/>
+				<Event Id="352576276" Name="level_start" ObjectPath="\Events\Default Work Unit\level_start"/>
+				<Event Id="2908556826" Name="level_win" ObjectPath="\Events\Default Work Unit\level_win"/>
+				<Event Id="1542330065" Name="player_die" ObjectPath="\Events\Default Work Unit\player_die"/>
+				<Event Id="3019720880" Name="stop_all_sounds" ObjectPath="\Events\Default Work Unit\stop_all_sounds"/>
+				<Event Id="4258653052" Name="test_event" ObjectPath="\Events\Default Work Unit\test_event"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="142700" Language="SFX">
+					<ShortName>snd_hack_2.wav</ShortName>
+					<Path>SFX/snd_hack_2_0A288869.wem</Path>
+				</File>
+				<File Id="132228751" Language="SFX">
+					<ShortName>snd_level_win.wav</ShortName>
+					<Path>SFX/snd_level_win_0A288869.wem</Path>
+				</File>
+				<File Id="133728095" Language="SFX">
+					<ShortName>snd_hack_1.wav</ShortName>
+					<Path>SFX/snd_hack_1_0A288869.wem</Path>
+				</File>
+				<File Id="206198251" Language="SFX">
+					<ShortName>snd_hack_4.wav</ShortName>
+					<Path>SFX/snd_hack_4_0A288869.wem</Path>
+				</File>
+				<File Id="212663957" Language="SFX">
+					<ShortName>snd_test_event.wav</ShortName>
+					<Path>SFX/snd_test_event_0A288869.wem</Path>
+				</File>
+				<File Id="349920845" Language="SFX">
+					<ShortName>snd_boss_active.wav</ShortName>
+					<Path>SFX/snd_boss_active_0A288869.wem</Path>
+				</File>
+				<File Id="385246275" Language="SFX">
+					<ShortName>snd_level_part_2.wav</ShortName>
+					<Path>SFX/snd_level_part_2_0A288869.wem</Path>
+				</File>
+				<File Id="479894770" Language="SFX">
+					<ShortName>snd_level_part_4.wav</ShortName>
+					<Path>SFX/snd_level_part_4_0A288869.wem</Path>
+				</File>
+				<File Id="534297817" Language="SFX">
+					<ShortName>snd_stop_all_sounds.wav</ShortName>
+					<Path>SFX/snd_stop_all_sounds_0A288869.wem</Path>
+				</File>
+				<File Id="574290992" Language="SFX">
+					<ShortName>snd_hack_3.wav</ShortName>
+					<Path>SFX/snd_hack_3_0A288869.wem</Path>
+				</File>
+				<File Id="672343767" Language="SFX">
+					<ShortName>snd_level_start.wav</ShortName>
+					<Path>SFX/snd_level_start_0A288869.wem</Path>
+				</File>
+				<File Id="737644100" Language="SFX">
+					<ShortName>snd_level_part_3.wav</ShortName>
+					<Path>SFX/snd_level_part_3_0A288869.wem</Path>
+				</File>
+				<File Id="772430493" Language="SFX">
+					<ShortName>snd_level_part_1.wav</ShortName>
+					<Path>SFX/snd_level_part_1_0A288869.wem</Path>
+				</File>
+				<File Id="781338663" Language="SFX">
+					<ShortName>snd_player_die.wav</ShortName>
+					<Path>SFX/snd_player_die_0A288869.wem</Path>
+				</File>
+				<File Id="839843968" Language="SFX">
+					<ShortName>snd_enemies_clear.wav</ShortName>
+					<Path>SFX/snd_enemies_clear_0A288869.wem</Path>
+				</File>
+				<File Id="869590801" Language="SFX">
+					<ShortName>snd_boss_clear.wav</ShortName>
+					<Path>SFX/snd_boss_clear_0A288869.wem</Path>
+				</File>
+				<File Id="937522344" Language="SFX">
+					<ShortName>snd_boss_proximity_warning.wav</ShortName>
+					<Path>SFX/snd_boss_proximity_warning_0A288869.wem</Path>
+				</File>
+				<File Id="966394191" Language="SFX">
+					<ShortName>snd_enemies_active.wav</ShortName>
+					<Path>SFX/snd_enemies_active_0A288869.wem</Path>
+				</File>
+				<File Id="1018935267" Language="SFX">
+					<ShortName>snd_level_part_5.wav</ShortName>
+					<Path>SFX/snd_level_part_5_0A288869.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

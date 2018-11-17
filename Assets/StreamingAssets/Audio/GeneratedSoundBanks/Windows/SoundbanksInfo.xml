@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>/Users/msweet/Library/Application Support/Wwise/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_01_Wwise/AngryBots/Wwise Project 01 Template/</ProjectRoot>
+		<SourceFilesRoot>/Users/msweet/Library/Application Support/Wwise/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_01_Wwise/AngryBots/Wwise Project 01 Template/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/msweet/Library/Application Support/Wwise/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_01_Wwise/AngryBots/Wwise Project 01 Template/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/msweet/Library/Application Support/Wwise/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_01_Wwise/AngryBots/Wwise Project 01 Template/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3626155605" Language="SFX">
+			<ShortName>Game_Soundbank</ShortName>
+			<Path>Game_Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1953592055" Name="boss_active"/>
+				<Event Id="821155884" Name="boss_clear"/>
+				<Event Id="1503139828" Name="enemies_active"/>
+				<Event Id="2534285889" Name="enemies_clear"/>
+				<Event Id="1147147046" Name="hack_1"/>
+				<Event Id="1147147045" Name="hack_2"/>
+				<Event Id="1147147044" Name="hack_3"/>
+				<Event Id="1147147043" Name="hack_4"/>
+				<Event Id="1535975439" Name="level_part_1"/>
+				<Event Id="1535975436" Name="level_part_2"/>
+				<Event Id="1535975437" Name="level_part_3"/>
+				<Event Id="1535975434" Name="level_part_4"/>
+				<Event Id="1535975435" Name="level_part_5"/>
+				<Event Id="352576276" Name="level_start"/>
+				<Event Id="1542330065" Name="player_die"/>
+				<Event Id="3019720880" Name="stop_all_sounds"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="355234491" Language="SFX">
+					<ShortName>stinger2.wav</ShortName>
+					<Path>SFX/stinger2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="635908981" Language="SFX">
+					<ShortName>AlsoSprachZarathustra.wav</ShortName>
+					<Path>SFX/AlsoSprachZarathustra_4B8CC0C5.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

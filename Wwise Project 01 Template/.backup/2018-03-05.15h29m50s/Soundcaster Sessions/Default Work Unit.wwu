@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CD3C1BE8-D610-4DBB-ADEE-6A38EE558206}" SchemaVersion="80">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{CD3C1BE8-D610-4DBB-ADEE-6A38EE558206}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{48CECED4-ABE8-4C8D-B711-81A283E054F3}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="level_start" ID="{313C8D66-F8DB-4EFB-971E-1D299633D87A}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="player_die" ID="{3B78D04A-0A2F-4541-8A1E-EB7D5CC358A1}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="level_part_1" ID="{1D38C2E7-85D9-46C2-A0F2-86013D3C7945}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="level_part_2" ID="{E03CA229-574A-4A88-8BF9-D50BC06B032B}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="level_part_3" ID="{A1A1D2E7-73AF-427E-97C4-7DB17D5BE796}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="level_part_4" ID="{19C043C6-7A3E-4734-A100-61EFB67DA087}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="level_part_5" ID="{CC735B0E-DEB6-4BBC-87A6-36651F7EC77D}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="level_win" ID="{45B074D5-6991-44FA-A8C7-9EFD7189A0A1}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="hack_1" ID="{D68FEDCF-5915-4B11-995F-A9DC934254A0}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="hack_2" ID="{E47F4DA3-021E-40C7-9B7A-2546930971FB}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="hack_3" ID="{EA72301B-8D47-4F07-8E0A-62B5FDBCDCD7}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="hack_4" ID="{C74889D0-0288-47D4-9D36-C9F6E1785077}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="boss_active" ID="{A177B17B-2AAD-4C28-80AB-1958D00A1B11}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="boss_clear" ID="{47F1B1B4-7545-4B89-969B-FEF801767CFD}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="number_of_active_enemies" ID="{76B78A41-B60B-40B4-B37F-2FCED224034E}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="player_health" ID="{BF99B569-D5DD-4321-8C29-4CC6F46E0283}"/>
+							<Value>75</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{8354CB12-F9A5-40EF-B256-EB2AE3FD7112}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="boss_active" ID="{837A565B-EA95-4145-985C-EF2C326DC963}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

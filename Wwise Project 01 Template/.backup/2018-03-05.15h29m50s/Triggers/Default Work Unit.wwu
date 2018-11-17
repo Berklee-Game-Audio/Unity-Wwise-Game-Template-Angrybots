@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{64679CF1-DCFF-49CA-8C5B-E13A5B17D7DA}" SchemaVersion="80">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{64679CF1-DCFF-49CA-8C5B-E13A5B17D7DA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="trigger_hack_01" ID="{30A3ED78-94FA-4CE8-B44F-CD2497600F86}"/>
+				<Trigger Name="trigger_hack_02" ID="{0E7B5E73-CBD4-48DF-9FC9-9D59895022E7}"/>
+				<Trigger Name="trigger_hack_03" ID="{5278DA37-9E1E-4D01-90AB-D6DCB92B0314}"/>
+				<Trigger Name="trigger_hack_04" ID="{F4C16225-47A7-407B-A5B3-04A906B99262}"/>
+				<Trigger Name="trigger_player_death" ID="{545FF5D7-F048-4E0A-A232-8C8B0904BB0F}"/>
+				<Trigger Name="trigger_enemies_active" ID="{80F9B601-5549-4351-8500-314EC6A809BB}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

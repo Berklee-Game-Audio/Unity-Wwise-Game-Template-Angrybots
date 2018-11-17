@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	352576276	level_start			\Default Work Unit\level_start	
+	821155884	boss_clear			\Default Work Unit\boss_clear	
+	1147147043	hack_4			\Default Work Unit\hack_4	
+	1147147044	hack_3			\Default Work Unit\hack_3	
+	1147147045	hack_2			\Default Work Unit\hack_2	
+	1147147046	hack_1			\Default Work Unit\hack_1	
+	1503139828	enemies_active			\Default Work Unit\enemies_active	
+	1535975434	level_part_4			\Default Work Unit\level_part_4	
+	1535975435	level_part_5			\Default Work Unit\level_part_5	
+	1535975436	level_part_2			\Default Work Unit\level_part_2	
+	1535975437	level_part_3			\Default Work Unit\level_part_3	
+	1535975439	level_part_1			\Default Work Unit\level_part_1	
+	1542330065	player_die			\Default Work Unit\player_die	
+	1953592055	boss_active			\Default Work Unit\boss_active	
+	2534285889	enemies_clear			\Default Work Unit\enemies_clear	
+	3019720880	stop_all_sounds			\Default Work Unit\stop_all_sounds	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	355234491	stinger2	Y:\Desktop\Final_Project_01_Wwise\AngryBots\Wwise Project 01 Template\.cache\Windows\SFX\stinger2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\stinger2\stinger2		667892
+	635908981	AlsoSprachZarathustra	Y:\Desktop\Final_Project_01_Wwise\AngryBots\Wwise Project 01 Template\.cache\Windows\SFX\AlsoSprachZarathustra_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\game_level_start_playlist\AlsoSprachZarathustra\AlsoSprachZarathustra		16709512
+

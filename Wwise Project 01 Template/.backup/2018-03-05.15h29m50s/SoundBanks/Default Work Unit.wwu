@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{688C630A-1B31-4532-9748-DAE2DECAD42B}" SchemaVersion="80">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{688C630A-1B31-4532-9748-DAE2DECAD42B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Game_Soundbank" ID="{796FDF1F-AA2A-47F7-9BF1-B9BA637E879B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="hack_2" ID="{E47F4DA3-021E-40C7-9B7A-2546930971FB}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_part_3" ID="{A1A1D2E7-73AF-427E-97C4-7DB17D5BE796}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="enemies_active" ID="{5D194D97-1192-429B-813F-BD14D8F12116}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="boss_proximity_warning" ID="{6BA8864F-FE27-42F9-AC36-DC4510EBAE67}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_win" ID="{45B074D5-6991-44FA-A8C7-9EFD7189A0A1}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="player_die" ID="{3B78D04A-0A2F-4541-8A1E-EB7D5CC358A1}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_part_1" ID="{1D38C2E7-85D9-46C2-A0F2-86013D3C7945}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_part_4" ID="{19C043C6-7A3E-4734-A100-61EFB67DA087}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="hack_4" ID="{C74889D0-0288-47D4-9D36-C9F6E1785077}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_part_2" ID="{E03CA229-574A-4A88-8BF9-D50BC06B032B}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="hack_1" ID="{D68FEDCF-5915-4B11-995F-A9DC934254A0}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="stop_all_sounds" ID="{449C8D8B-273F-4B6D-96CF-9ADE333D793F}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="boss_clear" ID="{47F1B1B4-7545-4B89-969B-FEF801767CFD}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_part_5" ID="{CC735B0E-DEB6-4BBC-87A6-36651F7EC77D}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="boss_active" ID="{A177B17B-2AAD-4C28-80AB-1958D00A1B11}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="enemies_clear" ID="{AEB52EB6-2267-4D0E-9D3A-CFA1D0D74832}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="test_event" ID="{35A67DA4-B317-4E24-8A5D-6441619EB241}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_start" ID="{313C8D66-F8DB-4EFB-971E-1D299633D87A}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="hack_3" ID="{EA72301B-8D47-4F07-8E0A-62B5FDBCDCD7}" WorkUnitID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

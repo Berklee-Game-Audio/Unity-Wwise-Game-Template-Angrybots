@@ -1,0 +1,42 @@
+Event	ID	Name			Wwise Object Path	Notes
+	352576276	level_start			\Default Work Unit\level_start	
+	821155884	boss_clear			\Default Work Unit\boss_clear	
+	1147147043	hack_4			\Default Work Unit\hack_4	
+	1147147044	hack_3			\Default Work Unit\hack_3	
+	1147147045	hack_2			\Default Work Unit\hack_2	
+	1147147046	hack_1			\Default Work Unit\hack_1	
+	1503139828	enemies_active			\Default Work Unit\enemies_active	
+	1535975434	level_part_4			\Default Work Unit\level_part_4	
+	1535975435	level_part_5			\Default Work Unit\level_part_5	
+	1535975436	level_part_2			\Default Work Unit\level_part_2	
+	1535975437	level_part_3			\Default Work Unit\level_part_3	
+	1535975439	level_part_1			\Default Work Unit\level_part_1	
+	1542330065	player_die			\Default Work Unit\player_die	
+	1953592055	boss_active			\Default Work Unit\boss_active	
+	2534285889	enemies_clear			\Default Work Unit\enemies_clear	
+	2908556826	level_win			\Default Work Unit\level_win	
+	3019720880	stop_all_sounds			\Default Work Unit\stop_all_sounds	
+	3888303873	boss_proximity_warning			\Default Work Unit\boss_proximity_warning	
+	4258653052	test_event			\Default Work Unit\test_event	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	142700	snd_hack_2	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_hack_2_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_hack_2\snd_hack_2		99536
+	132228751	snd_level_win	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_level_win_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_level_win\snd_level_win		111184
+	133728095	snd_hack_1	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_hack_1_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_hack_1\snd_hack_1		97866
+	206198251	snd_hack_4	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_hack_4_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_hack_4\snd_hack_4		98420
+	212663957	snd_test_event	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_test_event_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_test_event\snd_test_event		97060
+	349920845	snd_boss_active	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_boss_active_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_boss_active\snd_boss_active		125332
+	385246275	snd_level_part_2	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_level_part_2_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_level_part_2\snd_level_part_2		127274
+	479894770	snd_level_part_4	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_level_part_4_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_level_part_4\snd_level_part_4		131896
+	534297817	snd_stop_all_sounds	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_stop_all_sounds_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_stop_all_sounds\snd_stop_all_sounds		161086
+	574290992	snd_hack_3	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_hack_3_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_hack_3\snd_hack_3		122886
+	672343767	snd_level_start	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_level_start_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_level_start\snd_level_start		105314
+	737644100	snd_level_part_3	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_level_part_3_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_level_part_3\snd_level_part_3		137860
+	772430493	snd_level_part_1	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_level_part_1_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_level_part_1\snd_level_part_1		119116
+	781338663	snd_player_die	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_player_die_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_player_die\snd_player_die		120318
+	839843968	snd_enemies_clear	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_enemies_clear_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_enemies_clear\snd_enemies_clear		118820
+	869590801	snd_boss_clear	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_boss_clear_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_boss_clear\snd_boss_clear		116356
+	937522344	snd_boss_proximity_warning	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_boss_proximity_warning_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_boss_proximity_warning\snd_boss_proximity_warning		157114
+	966394191	snd_enemies_active	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_enemies_active_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_enemies_active\snd_enemies_active		134796
+	1018935267	snd_level_part_5	Y:\Desktop\Final_Project_01_Wwise_Angrybots\Wwise Project 01 Template\.cache\Mac\SFX\snd_level_part_5_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Temp Sounds\snd_level_part_5\snd_level_part_5		137342
+

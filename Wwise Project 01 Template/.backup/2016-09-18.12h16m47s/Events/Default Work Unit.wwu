@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{9C41CCE0-2C16-4002-9C78-5E67DD0B068D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="level_start" ID="{313C8D66-F8DB-4EFB-971E-1D299633D87A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{237C29C0-12E2-4FA9-99C3-F559C339A922}" ShortID="431748820" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F9594F7B-A24E-4095-A932-00EF7216C4F8}" Global="false">
+									<ObjectRef Name="game_level_start_playlist" ID="{69D3D0D6-4444-426B-BD62-560070C8230B}" WorkUnitID="{81EA18EA-89C7-47EB-A9CE-375B489EFFFF}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hack_3" ID="{EA72301B-8D47-4F07-8E0A-62B5FDBCDCD7}"/>
+				<Event Name="enemies_active" ID="{5D194D97-1192-429B-813F-BD14D8F12116}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DD26577F-6236-4FF8-A7FF-CA8009F88991}" ShortID="975768804" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AE1B88D4-E746-415D-BE91-FF7C7AE0798D}" Global="false">
+									<ObjectRef Name="stinger2" ID="{BA9E2D12-AEF8-475E-948C-373BAEFC0907}" WorkUnitID="{81EA18EA-89C7-47EB-A9CE-375B489EFFFF}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enemies_clear" ID="{AEB52EB6-2267-4D0E-9D3A-CFA1D0D74832}"/>
+				<Event Name="boss_active" ID="{A177B17B-2AAD-4C28-80AB-1958D00A1B11}"/>
+				<Event Name="boss_clear" ID="{47F1B1B4-7545-4B89-969B-FEF801767CFD}"/>
+				<Event Name="hack_1" ID="{D68FEDCF-5915-4B11-995F-A9DC934254A0}"/>
+				<Event Name="hack_2" ID="{E47F4DA3-021E-40C7-9B7A-2546930971FB}"/>
+				<Event Name="player_die" ID="{3B78D04A-0A2F-4541-8A1E-EB7D5CC358A1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7F3924E7-4788-46FC-A75B-1231A1F4A905}" ShortID="678855528" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{45733FFC-CD2F-4229-AB86-2DDDE9085B0A}" Global="false">
+									<ObjectRef Name="stinger1" ID="{48F7D0DD-C43E-453A-9EB8-91D16BD2A9E8}" WorkUnitID="{81EA18EA-89C7-47EB-A9CE-375B489EFFFF}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="level_part_1" ID="{1D38C2E7-85D9-46C2-A0F2-86013D3C7945}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E0E1AD5F-3EE1-40D2-AD69-F18066C5434F}" ShortID="611104956" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D2315D62-CE83-4BBF-A9DD-D1E0E015DE21}" Global="false">
+									<ObjectRef Name="stinger2" ID="{BA9E2D12-AEF8-475E-948C-373BAEFC0907}" WorkUnitID="{81EA18EA-89C7-47EB-A9CE-375B489EFFFF}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="level_part_2" ID="{E03CA229-574A-4A88-8BF9-D50BC06B032B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9712717E-E024-479C-8277-A31E7F7ACACF}" ShortID="984115124" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6DC285E2-7094-45E4-813C-1B173B0A5512}" Global="false">
+									<ObjectRef Name="stinger2" ID="{BA9E2D12-AEF8-475E-948C-373BAEFC0907}" WorkUnitID="{81EA18EA-89C7-47EB-A9CE-375B489EFFFF}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="level_part_3" ID="{A1A1D2E7-73AF-427E-97C4-7DB17D5BE796}"/>
+				<Event Name="level_part_4" ID="{19C043C6-7A3E-4734-A100-61EFB67DA087}"/>
+				<Event Name="level_part_5" ID="{CC735B0E-DEB6-4BBC-87A6-36651F7EC77D}"/>
+				<Event Name="hack_4" ID="{C74889D0-0288-47D4-9D36-C9F6E1785077}"/>
+				<Event Name="stop_all_sounds" ID="{449C8D8B-273F-4B6D-96CF-9ADE333D793F}">
+					<ChildrenList>
+						<Action Name="Stop All" ID="{19BF77F2-282F-41F6-81E7-C78FCA4468D8}" ShortID="276009481" Type="Stop" Scope="All" Global="true"/>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

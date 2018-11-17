@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{023FF54B-5543-42C5-B317-9CD16CF5F05E}" SchemaVersion="75">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{023FF54B-5543-42C5-B317-9CD16CF5F05E}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="player_health" ID="{BF99B569-D5DD-4321-8C29-4CC6F46E0283}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="75"/>
+						<Property Name="Max" Type="Real64" Value="75"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="number_of_active_enemies" ID="{76B78A41-B60B-40B4-B37F-2FCED224034E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="20"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
